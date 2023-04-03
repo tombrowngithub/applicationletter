@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    padding-top: 2rem;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.my-contact {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1.5rem 0 1.5rem;
+}
+
+.name{
+    margin: auto;
+}
+.name span{
+    color: #0707be;
+}
+
+.my-address {
+    line-height: 5px;
+}
+
+.re-address {
+    padding: 0 2rem 0 2rem;
+    line-height: 5px;
+}
+.re-address .date{
+    color: gray;
+}
+.my-address .email{
+    color: blue;
+}
+.my-address p{
+    color: gray;
+}
+
+.letter-body {
+    padding: 0 2rem 0.3rem 2rem;
+}
